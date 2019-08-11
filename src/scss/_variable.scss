@@ -1,0 +1,44 @@
+//==============================================================================
+// Font Family
+//==============================================================================
+
+$font-family-sans-serif:
+  // Safari for macOS and iOS (San Francisco) -apple-system,
+  // Chrome < 56 for macOS (San Francisco) BlinkMacSystemFont,
+  // Windows "Segoe UI",
+  // Android
+    "Roboto",
+  // Basic web fallback
+    "Helvetica Neue",
+  Arial, sans-serif,
+  // Emoji fonts
+    "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol" !default;
+
+// Defaults
+
+$padding: 12px !default;
+
+//==============================================================================
+// Containers
+//==============================================================================
+
+$x-small: 600px !default;
+$small: 800px !default;
+$medium: 1000px !default;
+$large: 1200px !default;
+
+//==============================================================================
+// Theme Variable
+//==============================================================================
+$theme-color: #5465ff !default;
+
+$line-color: #edf2f6 !default;
+
+$secondary-color: #e6e6e6 !default;
+
+$success-color: #10dc60 !default;
+
+$danger-color:#ff4d4f !default;
+
+$alert-success:#42b983 !default;

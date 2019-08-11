@@ -1,0 +1,16 @@
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.23;
+
+  @include media-query(phone-only) {
+    font-size: 1rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.9;
+  margin: 10px 0 20px;
+  letter-spacing: -0.01em;
+}

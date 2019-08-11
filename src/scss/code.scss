@@ -1,0 +1,36 @@
+pre {
+  text-shadow: 0 1px white;
+  font-family: "Operator Mono", "Fira Code", Consolas, Monaco, "Andale Mono", monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  font-size: 0.8rem;
+  tab-size: 4;
+  hyphens: none;
+  line-height: 2;
+  vertical-align: middle;
+  padding: 10px;
+  background: rgba(238, 238, 238, 0.35);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+}
+
+code {
+  line-height: 1.7;
+  border-radius: 3px;
+
+  @extend pre;
+}
+
+pre code {
+  box-shadow: none;
+  background: none;
+}
+
+:not(pre) > code {
+  background: #f0f2f1;
+  padding: 1px 5px;
+  color: darken($theme-color, 10);
+}

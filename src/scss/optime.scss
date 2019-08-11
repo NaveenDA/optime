@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*!
+* Optime - A CSS Boilerplate
+* MIT License
+* https://naveenda.github.io/optime
+*/
+
+@import "node_modules/normalize.css/normalize";
+@import "./variable";
+@import "./media-query.scss";
+@import "./base.scss";
+@import "./container.scss";
+@import "./typography.scss";
+@import "./code.scss";
+@import "./table.scss";
+@import "./button.scss";
+@import "./utils.scss";
+@import "./alert.scss";

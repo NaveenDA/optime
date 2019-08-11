@@ -1,0 +1,33 @@
+body,
+html {
+  font-family: $font-family-sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: $theme-color;
+}
+
+ul {
+  li {
+    margin: 8px;
+    line-height: 1.65;
+  }
+}
+
+b,
+strong {
+  font-weight: inherit;
+  font-weight: bolder;
+}
+
+::selection {
+  background: lighten($theme-color, 25);
+  color: #333;
+}
+
+.img-res {
+  max-width: 100%;
+  height: auto;
+}

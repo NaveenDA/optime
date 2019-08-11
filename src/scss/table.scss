@@ -1,0 +1,27 @@
+table,
+td,
+th {
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+
+  th,
+  td {
+    padding: 12px;
+  }
+}
+
+table.bordered {
+  td,
+  th {
+    border: 1px solid $line-color;
+  }
+}
+
+table.hover tr {
+  &:hover {
+    background: lighten($theme-color, 32);
+  }
+}
