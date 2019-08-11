@@ -49,11 +49,12 @@
   "scripts": {
     "build": "npm-run-all css-*",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/optime.scss dist/css/optime.css",
-    "css-minify": "cleancss --level 1 --format breakWith=lf --source-map --source-map-inline-sources --output dist/css/optime.min.css dist/css/optime.css",
+    "css-minify": "cleancss --level 1 --format breakWith=lf sourceMap false --output dist/css/optime.min.css dist/css/optime.css",
     "css-prefix": "postcss --use autoprefixer --map false --output dist/css/optime.css dist/css/optime.css",
     "format": "prettier  --write 'src/scss/**/*.{scss,css}'",
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
     "start": "nodemon -e scss  --exec 'npm run css-compile'"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "main": "./dist/optime.css"
 }
