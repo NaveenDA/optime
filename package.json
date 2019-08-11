@@ -33,7 +33,7 @@
   "homepage": "https://github.com/NaveenDA/optime#readme",
   "husky": {
     "hooks": {
-      "pre-commit": "npm-run-all  lint format"
+      "pre-commit": "npm-run-all format lint "
     }
   },
   "keywords": [
