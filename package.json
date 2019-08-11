@@ -4,7 +4,7 @@
     "type": "git",
     "url": "git+https://github.com/NaveenDA/optime.git"
   },
-  "author": "",
+  "author": "naveenda <mailtomassnaveen@gmail.com>",
   "bugs": {
     "url": "https://github.com/NaveenDA/optime/issues"
   },
@@ -45,7 +45,7 @@
     "framework",
     "web"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "scripts": {
     "build": "npm-run-all css-*",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/optime.scss dist/css/optime.css",
