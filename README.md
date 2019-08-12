@@ -4,6 +4,21 @@ A tiny less boiler plate
 
 ### Status
 [![Build Status](https://travis-ci.org/NaveenDA/optime.svg?branch=master)](https://travis-ci.org/NaveenDA/optime)
+[![npm][npm-image]][npm-url] [![license][license-image]][license-url]
+[![changelog][changelog-image]][changelog-url]
+[![gitter][gitter-image]][gitter-url]
+
+
+
+
+[changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
+[changelog-url]: CHANGELOG.md
+[license-image]: https://img.shields.io/npm/l/normalize.css.svg?style=flat-square
+[license-url]: LICENSE.md
+[npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/normalize.css
+[gitter-image]: https://img.shields.io/badge/chat-gitter-blue.svg?style=flat-square
+[gitter-url]: https://gitter.im/necolas/normalize.css
 
 ### What?
 
