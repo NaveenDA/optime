@@ -5,7 +5,7 @@ A tiny less boiler plate
 ### Status
 [![Build Status](https://travis-ci.org/NaveenDA/optime.svg?branch=master)](https://travis-ci.org/NaveenDA/optime)
 ![David](https://img.shields.io/david/dev/naveenda/optime)
-![NPM](https://img.shields.io/npm/l/optime)
+
 [![npm][npm-image]][npm-url] [![license][license-image]][license-url]
 
 [![changelog][changelog-image]][changelog-url]
@@ -16,7 +16,7 @@ A tiny less boiler plate
 
 [changelog-image]: https://img.shields.io/badge/changelog-md-blue.svg?style=flat-square
 [changelog-url]: CHANGELOG.md
-[license-image]: https://img.shields.io/npm/l/optime?style=flat-square
+[license-image]: https://img.shields.io/npm/l/optime
 [license-url]: LICENSE.md
 [npm-image]: https://img.shields.io/npm/v/normalize.css.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/normalize.css
