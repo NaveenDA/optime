@@ -1,4 +1,4 @@
-# optime
+# Optime
 A tiny less boiler plate
 ### Quick start
 
