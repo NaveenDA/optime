@@ -1,5 +1,8 @@
 # optime
 A tiny less boiler plate
+### Quick start
+
+### Status
 
 ### What?
 
@@ -7,15 +10,18 @@ A tiny less boiler plate
 
 ### How?
 
-### Compatibility
-  - IE8+
-  - FireFox 2+
-  - Chrome
-  - Chrome Mobile
-  - Safari 5+
-  - iOS Safari 5.1+
-  - Android 2+
-  - Opera 9.6+
-  - Opera Mini 5+
-  - Opera Mobile 10+
-  - Blackberry 10+.
+## Browser support
+Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most styles compatible with earlier browsers and [Normalize.css](https://necolas.github.io/normalize.css/) for CSS resets. Spectre is designed for modern browsers. For best compatibility, these browsers are recommended:
+
+- Chrome (LAST 4)
+- Microsoft Edge (LAST 4)
+- Firefox (EXTENDED SUPPORT RELEASE)
+- Safari (LAST 4)
+- Opera (LAST 4)
+- Internet Explorer 10+
+
+### Used by
+
+
+### Copyright and license
+Code copyright 2019 Naveen. Code released under the MIT license.
