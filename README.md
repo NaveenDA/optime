@@ -3,6 +3,7 @@ A tiny less boiler plate
 ### Quick start
 
 ### Status
+[![Build Status](https://travis-ci.org/NaveenDA/optime.svg?branch=master)](https://travis-ci.org/NaveenDA/optime)
 
 ### What?
 
