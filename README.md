@@ -6,8 +6,6 @@ A tiny less boiler plate
 
 [![Npm Version][npm-img]][npm-url] [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
 
-
-
 ### What?
 
 ### Why?
