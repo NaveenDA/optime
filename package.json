@@ -55,6 +55,6 @@
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
     "start": "nodemon -e scss  --exec 'npm run css-compile'"
   },
-  "version": "1.0.1",
-  "main": "./dist/optime.css"
+  "version": "1.0.2",
+  "main": "./dist/css/optime.css"
 }
