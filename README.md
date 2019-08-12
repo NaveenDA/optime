@@ -4,20 +4,8 @@ A tiny less boiler plate
 
 ### Status
 
-![npm](https://img.shields.io/npm/v/optime)
+[![Npm Version][npm-img]][npm-url] [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
 
-[![Build Status](https://travis-ci.org/NaveenDA/optime.svg?branch=master)](https://travis-ci.org/NaveenDA/optime)
-
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/optime)
-
-![David](https://img.shields.io/david/dev/naveenda/optime)
-
-
-[![license][license-image]][license-url]
-
-[![npm][npm-image]][npm-url] 
-
-[![changelog][changelog-image]][changelog-url]
 
 
 ### What?
@@ -40,4 +28,19 @@ Spectre uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make mos
 
 
 ### Copyright and license
-Code copyright 2019 Naveen. Code released under the MIT license.
+Code copyright 2019 Naveen. Code released under the [MIT](LICENSE) license.
+
+
+
+[changelog-img]: https://img.shields.io/badge/changelog-md-blue.svg
+[changelog-url]: CHANGELOG.md
+[npm-img]: https://img.shields.io/npm/v/optime
+[npm-url]: https://www.npmjs.com/package/optime
+[dev-dependency-img]: https://img.shields.io/david/dev/naveenda/optime
+[dev-dependency-url]: https://david-dm.org/naveenda/optime?type=dev
+[bundle-size-url]: https://bundlephobia.com/result?p=optime
+[bundle-size-img]: https://img.shields.io/bundlephobia/minzip/optime
+[build-status-img]: https://travis-ci.org/NaveenDA/optime.svg?branch=master
+[build-status-url]: https://travis-ci.org/NaveenDA/optime
+[license-img]: https://img.shields.io/npm/l/optime
+[license-url]: https://github.com/NaveenDA/optime/blob/master/LICENSE
