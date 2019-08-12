@@ -1,17 +1,25 @@
 {
   "name": "optime",
+  "description": "A tiny less boiler plate",
+  "version": "1.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaveenDA/optime.git"
   },
-  "author": "naveenda <mailtomassnaveen@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/NaveenDA/optime/issues"
-  },
+  "keywords": [
+    "css",
+    "sass",
+    "mobile-first",
+    "responsive",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "main": "./dist/css/optime.css",
+  "files":["dist"],
   "dependencies": {
     "normalize.css": "^8.0.1"
   },
-  "description": "A tiny less boiler plate",
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "clean-css-cli": "^4.3.0",
@@ -36,16 +44,6 @@
       "pre-commit": "npm-run-all format lint "
     }
   },
-  "keywords": [
-    "css",
-    "sass",
-    "mobile-first",
-    "responsive",
-    "front-end",
-    "framework",
-    "web"
-  ],
-  "license": "MIT",
   "scripts": {
     "build": "npm-run-all css-*",
     "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/optime.scss dist/css/optime.css",
@@ -55,6 +53,9 @@
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
     "start": "nodemon -e scss  --exec 'npm run css-compile'"
   },
-  "version": "1.0.2",
-  "main": "./dist/css/optime.css"
+  "author": "naveenda <mailtomassnaveen@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/NaveenDA/optime/issues"
+  },
+  "license": "MIT"
 }
