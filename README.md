@@ -1,6 +1,7 @@
 <p align="center">
     <a href="https://naveenda.github.io/optime" target="_blank"><img width="200" src="./resources/optime-logo.svg"></a>
-    <h2 align="center">Optime</h2>
+   <br>
+    Optime
     A css framework fully optimised for better readability.
 </p>
 
