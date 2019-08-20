@@ -4,9 +4,8 @@
 </p>
 
 <p align="center">
-    <a href="https://www.npmjs.com/package/optime"><img src="https://img.shields.io/npm/v/optime" alt="Build Status"></a>
-    [![Npm Version][npm-img]][npm-url]
-    [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
+   <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/changelog-md-blue.svg" alt="Changelog" /></a> <a href="https://www.npmjs.com/package/optime"><img src="https://img.shields.io/npm/v/optime" alt="npm" /></a> <a href="https://david-dm.org/naveenda/optime?type=dev"><img src="https://img.shields.io/david/dev/naveenda/optime" alt="Dev Dependency" /></a> <a href="https://bundlephobia.com/result?p=optime"><img src="https://img.shields.io/bundlephobia/minzip/optime" alt="Bundle Size" /></a> <a href="https://travis-ci.org/NaveenDA/optime"><img src="https://travis-ci.org/NaveenDA/optime.svg?branch=master" alt="Build Status" /></a> <a href="https://github.com/NaveenDA/optime/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/optime" alt="License" /></a  
+
 </p>
 
 ------
@@ -45,16 +44,3 @@ Optime uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most
 Code copyright 2019 Naveen. Code released under the [MIT](LICENSE) license.
 
 
-
-[changelog-img]: https://img.shields.io/badge/changelog-md-blue.svg
-[changelog-url]: CHANGELOG.md
-[npm-img]: https://img.shields.io/npm/v/optime
-[npm-url]: https://www.npmjs.com/package/optime
-[dev-dependency-img]: https://img.shields.io/david/dev/naveenda/optime
-[dev-dependency-url]: https://david-dm.org/naveenda/optime?type=dev
-[bundle-size-url]: https://bundlephobia.com/result?p=optime
-[bundle-size-img]: https://img.shields.io/bundlephobia/minzip/optime
-[build-status-img]: https://travis-ci.org/NaveenDA/optime.svg?branch=master
-[build-status-url]: https://travis-ci.org/NaveenDA/optime
-[license-img]: https://img.shields.io/npm/l/optime
-[license-url]: https://github.com/NaveenDA/optime/blob/master/LICENSE
