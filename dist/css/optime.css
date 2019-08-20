@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-* Optime - A CSS Boilerplate
+* Optime - A css framework optimised for better readability 📖.
 * MIT License
 * https://naveenda.github.io/optime
 */
@@ -87,7 +87,8 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -365,6 +366,11 @@ strong {
   font-weight: bolder;
 }
 
+::-moz-selection {
+  background: #d4d8ff;
+  color: #333;
+}
+
 ::selection {
   background: #d4d8ff;
   color: #333;
@@ -373,6 +379,14 @@ strong {
 .img-res {
   max-width: 100%;
   height: auto;
+}
+
+p {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+  letter-spacing: 0.03em;
 }
 
 .container, .container-small, .container-medium {
@@ -418,8 +432,12 @@ pre, code {
   word-spacing: normal;
   word-break: normal;
   font-size: 0.8rem;
-  tab-size: 4;
-  hyphens: none;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
   line-height: 2;
   vertical-align: middle;
   padding: 10px;
@@ -485,7 +503,10 @@ button,
   text-align: center;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   vertical-align: middle;
 }
 
@@ -567,5 +588,4 @@ button:hover,
   color: #fff;
   background: #42b983;
 }
-
 /*# sourceMappingURL=optime.css.map */

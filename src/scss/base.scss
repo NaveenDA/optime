@@ -32,11 +32,10 @@ strong {
   height: auto;
 }
 
-
 p {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   text-rendering: optimizelegibility;
-  letter-spacing: .03em;
+  letter-spacing: 0.03em;
 }
