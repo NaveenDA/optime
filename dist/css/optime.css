@@ -87,8 +87,7 @@ abbr[title] {
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
   /* 2 */
 }
 
@@ -366,11 +365,6 @@ strong {
   font-weight: bolder;
 }
 
-::-moz-selection {
-  background: #d4d8ff;
-  color: #333;
-}
-
 ::selection {
   background: #d4d8ff;
   color: #333;
@@ -406,8 +400,9 @@ p {
 
 h1 {
   font-size: 2rem;
-  font-weight: 600;
   line-height: 1.23;
+  font-weight: 200;
+  letter-spacing: 0.01em;
 }
 
 @media (max-width: 599px) {
@@ -416,11 +411,46 @@ h1 {
   }
 }
 
+h2 {
+  font-weight: 400;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+h4 {
+  font-weight: 700;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+}
+
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.9;
   margin: 10px 0 20px;
   letter-spacing: -0.01em;
+}
+
+blockquote p {
+  margin-bottom: 10px;
+}
+
+blockquote footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+
+blockquote footer::before {
+  content: "\2014\00A0";
 }
 
 pre, code {
@@ -432,12 +462,8 @@ pre, code {
   word-spacing: normal;
   word-break: normal;
   font-size: 0.8rem;
-  -moz-tab-size: 4;
-    -o-tab-size: 4;
-       tab-size: 4;
-  -webkit-hyphens: none;
-      -ms-hyphens: none;
-          hyphens: none;
+  tab-size: 4;
+  hyphens: none;
   line-height: 2;
   vertical-align: middle;
   padding: 10px;
@@ -503,10 +529,7 @@ button,
   text-align: center;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
   vertical-align: middle;
 }
 
@@ -588,4 +611,5 @@ button:hover,
   color: #fff;
   background: #42b983;
 }
+
 /*# sourceMappingURL=optime.css.map */

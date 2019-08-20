@@ -7,9 +7,41 @@
 
 
 <p align="center">
-   <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/changelog-md-blue.svg" alt="Changelog" /></a> <a href="https://www.npmjs.com/package/optime"><img src="https://img.shields.io/npm/v/optime" alt="npm" /></a> <a href="https://david-dm.org/naveenda/optime?type=dev"><img src="https://img.shields.io/david/dev/naveenda/optime" alt="Dev Dependency" /></a> <a href="https://bundlephobia.com/result?p=optime"><img src="https://img.shields.io/bundlephobia/minzip/optime" alt="Bundle Size" /></a> <a href="https://travis-ci.org/NaveenDA/optime"><img src="https://travis-ci.org/NaveenDA/optime.svg?branch=master" alt="Build Status" /></a> <a href="https://github.com/NaveenDA/optime/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/optime" alt="License" /></a  
-
+  <a href="https://www.npmjs.com/package/optime">
+    <img alt="npm" src="https://img.shields.io/npm/v/optime" />
+  </a>
+  <a href="https://www.npmjs.com/package/optime">
+    <img alt="npm" src="https://img.shields.io/npm/dm/optime" />
+  </a>
+  <a href="https://travis-ci.org/NaveenDA/optime">
+    <img
+      alt="Build Status"
+      src="https://travis-ci.org/NaveenDA/optime.svg?branch=master"
+    />
+  </a>
+  <a href="CHANGELOG.md">
+    <img
+      alt="Changelog"
+      src="https://img.shields.io/badge/changelog-md-blue.svg"
+    />
+  </a>
+  <a href="https://david-dm.org/naveenda/optime?type=dev">
+    <img
+      alt="Dev Dependency"
+      src="https://img.shields.io/david/dev/naveenda/optime"
+    />
+  </a>
+  <a href="https://bundlephobia.com/result?p=optime">
+    <img
+      alt="Bundle Size"
+      src="https://img.shields.io/bundlephobia/minzip/optime"
+    />
+  </a>
+  <a href="https://github.com/NaveenDA/optime/blob/master/LICENSE">
+    <img alt="License" src="https://img.shields.io/npm/l/optime" />
+  </a>
 </p>
+
 
 ------
 
