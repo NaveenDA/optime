@@ -12,12 +12,6 @@
 
 ------
 
-# Optime
-A css framework optimised for better readability and rich look and feel
-### Quick start
-
-### Status
-
 
 
 ### Install
