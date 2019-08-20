@@ -1,9 +1,10 @@
 <p align="center">
     <a href="https://naveenda.github.io/optime" target="_blank"><img width="200" src="./resources/optime-logo.svg"></a>
-   <br>
-    Optime
-    A css framework fully optimised for better readability.
-</p>
+  </p>
+    <h3 align="center"> Optime</h3>
+ <p align="center">A css framework fully optimised for better readability.</p>
+
+
 
 <p align="center">
    <a href="CHANGELOG.md"><img src="https://img.shields.io/badge/changelog-md-blue.svg" alt="Changelog" /></a> <a href="https://www.npmjs.com/package/optime"><img src="https://img.shields.io/npm/v/optime" alt="npm" /></a> <a href="https://david-dm.org/naveenda/optime?type=dev"><img src="https://img.shields.io/david/dev/naveenda/optime" alt="Dev Dependency" /></a> <a href="https://bundlephobia.com/result?p=optime"><img src="https://img.shields.io/bundlephobia/minzip/optime" alt="Bundle Size" /></a> <a href="https://travis-ci.org/NaveenDA/optime"><img src="https://travis-ci.org/NaveenDA/optime.svg?branch=master" alt="Build Status" /></a> <a href="https://github.com/NaveenDA/optime/blob/master/LICENSE"><img src="https://img.shields.io/npm/l/optime" alt="License" /></a  
