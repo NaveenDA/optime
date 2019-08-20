@@ -1,10 +1,25 @@
+<p align="center">
+    <a href="https://naveenda.github.io/optime" target="_blank"><img width="200" src="./resources/optime-logo.svg"></a><br>
+    A utility-first CSS framework for rapidly building custom user interfaces.
+</p>
+
+<p align="center">
+  
+[![Npm Version][npm-img]][npm-url] [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
+</p>
+
+------
+
 # Optime
 A css framework optimised for better readability and rich look and feel
 ### Quick start
 
 ### Status
 
-[![Npm Version][npm-img]][npm-url] [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
+
+
+### Install
+
 
 ### What?
 
