@@ -1,6 +1,6 @@
 <p align="center">
     <a href="https://naveenda.github.io/optime" target="_blank"><img width="200" src="./resources/optime-logo.svg"></a><br>
-    A utility-first CSS framework for rapidly building custom user interfaces.
+    A css framework fully optimised for better readability.
 </p>
 
 <p align="center">
