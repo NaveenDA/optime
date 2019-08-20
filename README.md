@@ -4,8 +4,9 @@
 </p>
 
 <p align="center">
-  
-[![Npm Version][npm-img]][npm-url] [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
+    <a href="https://www.npmjs.com/package/optime"><img src="https://img.shields.io/npm/v/optime" alt="Build Status"></a>
+    [![Npm Version][npm-img]][npm-url]
+    [![Build Status][build-status-img]][build-status-url] [![Bundle Size][bundle-size-img]][bundle-size-url] [![Dev Dependency][dev-dependency-img]][dev-dependency-url] [![License][license-img]][license-url] [![changelog][changelog-img]][changelog-url]
 </p>
 
 ------
