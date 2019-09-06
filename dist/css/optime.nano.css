@@ -1,8 +1,10 @@
-@charset "UTF-8"; /*!
+@charset "UTF-8";
+/*!
 * Optime - A css framework optimised for better readability 📖.
 * MIT License
 * https://naveenda.github.io/optime
-*/ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+*/
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -33,11 +35,8 @@ a {
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
-}
-b,
-strong {
-  font-weight: bolder;
 }
 code,
 kbd,
@@ -152,8 +151,8 @@ template {
 }
 body,
 html {
-  font-family: Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -168,6 +167,10 @@ b,
 strong {
   font-weight: inherit;
   font-weight: bolder;
+}
+::-moz-selection {
+  background: #d4d8ff;
+  color: #333;
 }
 ::selection {
   background: #d4d8ff;
@@ -200,24 +203,46 @@ p {
 }
 h1 {
   font-size: 2rem;
-  font-weight: 600;
   line-height: 1.23;
+  font-weight: 200;
+  letter-spacing: 0.01em;
 }
 @media (max-width: 599px) {
   h1 {
     font-size: 1rem;
   }
 }
+h2,
+h3 {
+  font-weight: 400;
+}
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
 p {
+  font-weight: 400;
   font-size: 1rem;
   line-height: 1.9;
   margin: 10px 0 20px;
   letter-spacing: -0.01em;
 }
+blockquote p {
+  margin-bottom: 10px;
+}
+blockquote footer {
+  display: block;
+  font-size: 80%;
+  color: #6c757d;
+}
+blockquote footer:before {
+  content: "\2014\00A0";
+}
 code,
 pre {
   text-shadow: 0 1px #fff;
-  font-family: "Operator Mono", "Fira Code", Consolas, Monaco, "Andale Mono",
+  font-family: Operator Mono, Fira Code, Consolas, Monaco, Andale Mono,
     monospace;
   direction: ltr;
   text-align: left;
@@ -225,23 +250,29 @@ pre {
   word-spacing: normal;
   word-break: normal;
   font-size: 0.8rem;
+  -moz-tab-size: 4;
+  -o-tab-size: 4;
   tab-size: 4;
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
   hyphens: none;
   line-height: 2;
   vertical-align: middle;
   padding: 10px;
-  background: rgba(238, 238, 238, 0.35);
+  background: hsla(0, 0%, 93.3%, 0.35);
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+}
+code,
+pre {
   border-radius: 3px;
 }
 code {
   line-height: 1.7;
-  border-radius: 3px;
 }
 code code,
 pre code {
   box-shadow: none;
-  background: 0 0;
+  background: none;
 }
 :not(pre):not(code) > code {
   background: #f0f2f1;
@@ -264,6 +295,7 @@ table.bordered td,
 table.bordered th {
   border: 1px solid #edf2f6;
 }
+table.hover tr:focus,
 table.hover tr:hover {
   background: #f7f8ff;
 }
@@ -279,12 +311,15 @@ button {
   font-weight: 400;
   line-height: 1.5;
   margin-right: 0.5rem;
-  outline: 0;
+  outline: none;
   padding: 0.375rem 0.75rem;
   text-align: center;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
   vertical-align: middle;
 }
@@ -301,7 +336,9 @@ button.button-success {
 button.button-danger {
   background: #ff4d4f;
 }
+.button:focus,
 .button:hover,
+button:focus,
 button:hover {
   background-image: linear-gradient(
     transparent,
@@ -330,7 +367,7 @@ button:hover {
   line-height: 1.6;
   color: #304455;
 }
-.alert::before {
+.alert:before {
   position: absolute;
   top: 14px;
   left: -12px;
@@ -346,14 +383,14 @@ button:hover {
 .alert.alert-danger {
   border-left-color: #ff4d4f;
 }
-.alert.alert-danger::before {
+.alert.alert-danger:before {
   content: "!";
   background: #ff4d4f;
 }
 .alert.alert-success {
   border-left-color: #42b983;
 }
-.alert.alert-success::before {
+.alert.alert-success:before {
   content: "✓";
   color: #fff;
   background: #42b983;

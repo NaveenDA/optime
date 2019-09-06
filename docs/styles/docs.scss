@@ -1,0 +1,144 @@
+aside {
+  background: #f7fafc;
+  border-bottom: 1px solid #ddd;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.logo {
+  text-align: center;
+  border-bottom: 1px solid rgb(219, 219, 219);
+}
+.logo img {
+  height: 25px;
+  vertical-align: bottom;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+aside ul li {
+  padding-left: 12px;
+  transition: 0.2s all ease;
+}
+aside ul li a {
+  text-decoration: none;
+  color: #7d7979;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+aside ul li a svg {
+  margin-right: 15px;
+  stroke: #333;
+}
+aside ul li:hover {
+  background: #f7f8f9;
+}
+aside ul li:hover a {
+  color: #556cd6;
+  svg {
+    stroke: #556cd6;
+  }
+}
+
+.container {
+  display: flex;
+}
+main {
+  width: calc(100% - 220px);
+  padding: 30px;
+  margin-left: 220px;
+  pre {
+    background-color: rgb(245, 247, 249) !important;
+    code {
+      padding: 0;
+      font-size: 12px !important;
+    }
+  }
+}
+
+.example-cont {
+  background-color: rgba(0, 0, 0, 0.01);
+  margin-top: 30px;
+  padding: 5px;
+}
+.example-cont .example-title {
+  margin-left: 12px;
+}
+.example-preview {
+  background: #fff;
+  padding: 12px;
+}
+.section-heading {
+  margin-left: 32px;
+  color: #333;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.section-heading::before {
+  content: "#";
+  margin-left: -25px;
+  position: absolute;
+  font-size: 28px;
+  color: #333;
+  opacity: 0.6;
+}
+
+@media screen and (min-width: 800px) {
+  aside {
+    display: block;
+    width: 220px;
+    border-bottom: 0;
+  }
+}
+
+.full-page {
+  height: 100vh;
+  width: 100%;
+}
+
+#hero {
+  .inner {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 5em;
+    .hero-logo {
+      width: 215px;
+      height: 215px;
+      float: right;
+      margin-right: 60px;
+    }
+    .left {
+      width: 39%;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .right {
+      display: inline-block;
+      vertical-align: top;
+      width: 61%;
+    }
+    .button svg {
+      position: absolute;
+      left: 0.4em;
+      top: 0.4em;
+      width: 2em;
+    }
+  }
+}
+
+.card {
+    img{
+      min-height: 400px;
+    }
+}

@@ -1,7 +1,7 @@
 {
   "name": "optime",
   "description": "A tiny less boiler plate",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaveenDA/optime.git"
@@ -16,19 +16,29 @@
     "web"
   ],
   "main": "./dist/css/optime.css",
-  "files":["dist","src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "dependencies": {
-    "normalize.css": "^8.0.1"
+    "http-server": "^0.11.1",
+    "normalize.css": "^8.0.1",
+    "shelljs": "^0.8.3",
+    "templatesjs": "^2.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "clean-css-cli": "^4.3.0",
+    "cssnano": "^4.1.10",
+    "doiuse": "^4.2.0",
     "husky": "^2.3.0",
     "node-sass": "^4.12.0",
     "nodemon": "^1.19.0",
     "npm-run-all": "^4.1.5",
     "postcss": "^7.0.16",
     "postcss-cli": "^6.1.2",
+    "postcss-focus": "^4.0.0",
+    "postcss-normalize": "^8.0.1",
     "prettier": "^1.18.2",
     "stylelint": "^10.1.0",
     "stylelint-config-standard": "^18.3.0",
@@ -46,12 +56,18 @@
   },
   "scripts": {
     "build": "npm-run-all css-*",
-    "css-compile": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/optime.scss dist/css/optime.css",
+    "css-compile-main": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 src/scss/optime.scss dist/css/optime.css",
+    "css-compile-docs": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 docs/styles/docs.scss docs/styles/docs.css",
+    "css-compile-focus": "postcss --use postcss-focus   --map false  --output dist/css/optime.css dist/css/optime.css",
+    "css-compile-prefix": "postcss --use autoprefixer  --map false  --output dist/css/optime.css dist/css/optime.css",
     "css-minify": "cleancss --level 1 --format breakWith=lf  --output dist/css/optime.min.css dist/css/optime.css",
-    "css-prefix": "postcss --use autoprefixer --map false --output dist/css/optime.css dist/css/optime.css",
+    "css-normalize": "postcss --use autoprefixer --map false --output dist/css/optime.css dist/css/optime.css",
+    "docs-build": "node scripts/docs.js",
+    "docs-serve": "http-server ./ -P 9009 -c-1",
+    "doiuse": "doiuse --browsers \"ie >= 11, > 1%,last 2 versions,not op_mini all\"",
     "format": "prettier  --write 'src/scss/**/*.{scss,css}'",
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
-    "start": "nodemon -e scss  --exec 'npm run css-compile'"
+    "start": "nodemon -e scss  --exec 'npm-run-all css-compile-*  docs-*'"
   },
   "author": "naveenda <mailtomassnaveen@gmail.com>",
   "bugs": {
