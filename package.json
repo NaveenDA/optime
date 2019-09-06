@@ -1,7 +1,7 @@
 {
   "name": "optime",
   "description": "A tiny less boiler plate",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaveenDA/optime.git"
