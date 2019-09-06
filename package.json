@@ -15,7 +15,7 @@
     "framework",
     "web"
   ],
-  "main": "./dist/css/optime.css",
+  "main": "./dist/css/optime.min.css",
   "files": [
     "dist",
     "src"
