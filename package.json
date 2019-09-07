@@ -66,7 +66,7 @@
     "doiuse": "doiuse --browsers \"ie >= 11, > 1%,last 2 versions,not op_mini all\"",
     "format": "prettier  --write 'src/scss/**/*.{scss,css}'",
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
-    "start": "nodemon -e scss  --exec 'npm-run-all css-compile-*  docs-*'",
+    "start": "nodemon -e scss  --exec 'npm-run-all css-compile-*  docs-*'"
   },
   "author": "naveenda <mailtomassnaveen@gmail.com>",
   "bugs": {
