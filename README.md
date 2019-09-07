@@ -40,6 +40,9 @@
   <a href="https://github.com/NaveenDA/optime/blob/master/LICENSE">
     <img alt="License" src="https://img.shields.io/npm/l/optime" />
   </a>
+    <a href="https://twitter.com/naveenda_">
+    <img alt="Twitter: naveenda_" src="https://img.shields.io/twitter/follow/naveenda_.svg?style=social" target="_blank" />
+  </a>
 </p>
 
 
@@ -65,6 +68,16 @@ Optime uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most
 - Safari (LAST 4)
 - Opera (LAST 4)
 - Internet Explorer 10+
+
+
+
+## Author
+
+👤 **naveenda <mailtomassnaveen@gmail.com>**
+
+* Twitter: [@naveenda_](https://twitter.com/naveenda_)
+* Github: [@NaveenDA](https://github.com/NaveenDA)
+
 
 ### Used by
 

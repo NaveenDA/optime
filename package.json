@@ -1,6 +1,6 @@
 {
   "name": "optime",
-  "description": "A tiny less boiler plate",
+  "description": "A css framework fully optimised for better readability.",
   "version": "1.0.5",
   "repository": {
     "type": "git",
@@ -29,7 +29,6 @@
   "devDependencies": {
     "autoprefixer": "^9.5.1",
     "clean-css-cli": "^4.3.0",
-    "cssnano": "^4.1.10",
     "doiuse": "^4.2.0",
     "husky": "^2.3.0",
     "node-sass": "^4.12.0",
@@ -67,7 +66,7 @@
     "doiuse": "doiuse --browsers \"ie >= 11, > 1%,last 2 versions,not op_mini all\"",
     "format": "prettier  --write 'src/scss/**/*.{scss,css}'",
     "lint": "stylelint \"src/scss/**/*.scss\" --cache --cache-location .cache/.stylelintcache --fix",
-    "start": "nodemon -e scss  --exec 'npm-run-all css-compile-*  docs-*'"
+    "start": "nodemon -e scss  --exec 'npm-run-all css-compile-*  docs-*'",
   },
   "author": "naveenda <mailtomassnaveen@gmail.com>",
   "bugs": {
