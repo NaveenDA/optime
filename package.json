@@ -59,7 +59,7 @@
     "css-compile-docs": "node-sass --output-style expanded --source-map true --source-map-contents true --precision 6 docs/styles/docs.scss docs/styles/docs.css",
     "css-compile-focus": "postcss --use postcss-focus   --map false  --output dist/css/optime.css dist/css/optime.css",
     "css-compile-prefix": "postcss --use autoprefixer  --map false  --output dist/css/optime.css dist/css/optime.css",
-    "css-minify": "cleancss --level 1 --format breakWith=lf  --output dist/css/optime.min.css dist/css/optime.css",
+    "css-minify": "cleancss --level 1 --format breakWith=lf  --output dist/css/optime-lite.min.css dist/css/optime-lite.css",
     "css-normalize": "postcss --use autoprefixer --map false --output dist/css/optime.css dist/css/optime.css",
     "docs-build": "node scripts/docs.js",
     "docs-serve": "http-server ./ -P 9009 -c-1",
