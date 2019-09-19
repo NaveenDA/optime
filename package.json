@@ -1,7 +1,7 @@
 {
   "name": "optime",
   "description": "A css framework fully optimised for better readability.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/NaveenDA/optime.git"
