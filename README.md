@@ -4,7 +4,7 @@
     <h3 align="center"> Optime</h3>
  <p align="center">A css framework fully optimised for better readability.</p>
 
-<p align="center"><img src="./resources/optime-react-comparision.png"></p>
+
 
 <p align="center">
   <a href="https://www.npmjs.com/package/optime">
@@ -45,6 +45,7 @@
   </a>
 </p>
 
+<p align="center"><img src="https://rawcdn.githack.com/NaveenDA/optime/aaad32e6fb770a6f1be885e64a4d8563cd71976b/resources/optime-react-comparision.png"></p>
 
 ------
 
