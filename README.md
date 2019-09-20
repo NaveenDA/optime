@@ -1,10 +1,10 @@
 <p align="center">
-    <a href="https://naveenda.github.io/optime" target="_blank"><img width="150" src="./resources/optime-logo.svg"></a>
+    <a href="https://naveenda.github.io/optime" target="_blank"><img width="150" src="https://rawcdn.githack.com/NaveenDA/optime/247758fcf9a115410fbcdca3632f6295ea51665a/resources/optime-logo.svg"></a>
   </p>
     <h3 align="center"> Optime</h3>
  <p align="center">A css framework fully optimised for better readability.</p>
 
-
+<p align="center"><img src="./resources/optime-react-comparision.png"></p>
 
 <p align="center">
   <a href="https://www.npmjs.com/package/optime">

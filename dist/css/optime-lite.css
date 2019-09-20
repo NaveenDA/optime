@@ -13,7 +13,7 @@ html {
 }
 
 a {
-  color: #5465ff;
+  color: #007bff;
 }
 
 ul li {
@@ -28,12 +28,12 @@ strong {
 }
 
 ::-moz-selection {
-  background: #d4d8ff;
+  background: #80bdff;
   color: #333;
 }
 
 ::selection {
-  background: #d4d8ff;
+  background: #80bdff;
   color: #333;
 }
 
@@ -103,5 +103,44 @@ blockquote footer {
 
 blockquote footer::before {
   content: "\2014\00A0";
+}
+
+pre, code {
+  text-shadow: 0 1px white;
+  font-family: "Operator Mono", "Fira Code", Consolas, Monaco, "Andale Mono", monospace;
+  direction: ltr;
+  text-align: left;
+  white-space: pre;
+  word-spacing: normal;
+  word-break: normal;
+  font-size: 0.8rem;
+  -moz-tab-size: 4;
+    -o-tab-size: 4;
+       tab-size: 4;
+  -webkit-hyphens: none;
+      -ms-hyphens: none;
+          hyphens: none;
+  line-height: 2;
+  vertical-align: middle;
+  padding: 10px;
+  background: rgba(238, 238, 238, 0.35);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125);
+  border-radius: 3px;
+}
+
+code {
+  line-height: 1.7;
+  border-radius: 3px;
+}
+
+pre code, code code {
+  box-shadow: none;
+  background: none;
+}
+
+:not(pre):not(code) > code {
+  background: #f0f2f1;
+  padding: 1px 5px;
+  color: #0062cc;
 }
 /*# sourceMappingURL=optime-lite.css.map */
