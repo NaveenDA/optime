@@ -72,14 +72,6 @@ Optime uses [Autoprefixer](https://github.com/postcss/autoprefixer) to make most
 
 
 
-## Author
-
-👤 **naveenda <mailtomassnaveen@gmail.com>**
-
-* Twitter: [@naveenda_](https://twitter.com/naveenda_)
-* Github: [@NaveenDA](https://github.com/NaveenDA)
-
-
 ### Used by
 
 
